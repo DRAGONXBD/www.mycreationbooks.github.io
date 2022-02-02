@@ -1,0 +1,227 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+    
+    
+}
+.navimg{
+    
+}
+#navbar{
+        display: flex;
+         flex-direction: column; 
+         /* border-radius: 13px; */
+         align-items: center; 
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    #navbar ul{
+        display: flex;
+    }
+
+
+    #navbar ul li{
+    
+        display: flex;
+        list-style: none;
+
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+    
+
+}
+#navbar::before{
+    content: "";
+    background-color: #000000;
+    border-radius: 13px 13px;
+    opacity: 2;
+    position: absolute;
+    /* display: flex; */
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.sec1{
+    height: 299px;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    justify-content: center;
+
+    /* align-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.head1{
+    font-size: 1rem;
+}
+.sec1::before{
+    content: "";
+    background: url(img/Online-Sites-to-Publish-Your-Books-for-Free.jpg) no-repeat center center/cover;
+    opacity: 0.5;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+.btn{
+    margin: 13px 13px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 1.2rem;
+    /* color: white; */
+    border-radius: 8px 8px;
+}
+.btn a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+.btn a:hover{
+    background-color: black;
+    color: white;
+}
+.primary{
+    color: white;
+    background-color: black;
+    text-align: center;
+}
+.container{
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    margin: 133px 133px ;
+    background-color: #f2f2f2;
+    font-size: 25px;
+
+    
+}
+
+.container img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 34px 34px;
+    border-radius: 13px;
+}
+.join a{
+    font-size: 1rem;
+        text-decoration: none;
+
+        color: black;
+        background-color: #fff;
+}
+.join a:hover{
+    color: white;
+    background-color: black;
+}
+.container1{
+    align-items: center;
+    text-align: center;
+    border: 2px solid black;
+    margin: 133px 133px ;
+    background-color: #f2f2f2;
+    font-size: 25px;
+
+    
+}
+
+.container1 img{
+    height: 300px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 34px 34px;
+    border-radius: 13px;
+}
+.join a{
+    font-size: 1rem;
+        text-decoration: none;
+
+        color: black;
+        background-color: #fff;
+}
+.join a:hover{
+    color: white;
+    background-color: black;
+}
+footer{
+    color: white;
+    background-color: black;
+    text-align: center;
+    padding: 34px 34px;
+}
+@media (max-width:1170px) {
+    
+    .container{
+        align-items: center;
+        text-align: center;
+        border: 2px solid black;
+        margin: 100px 34px ;
+        background-color: #f2f2f2;
+        font-size: 25px;
+        width: 300px;
+    
+        
+    }
+    .container img{
+        height: 300px;
+        width: 230px;
+        border: 2px solid black;
+        margin: 34px 34px;
+        border-radius: 13px;
+    }
+    .join a{
+        font-size: 1rem;
+            text-decoration: none;
+    
+            color: black;
+            background-color: #fff;
+    }
+    .join a:hover{
+        color: white;
+        background-color: black;
+    }
+    .container1{
+        align-items: center;
+        text-align: center;
+        border: 2px solid black;
+        margin: 100px 34px ;
+        background-color: #f2f2f2;
+        font-size: 25px;
+        width: 300px;
+    
+        
+    }
+    
+    .container1 img{
+        height: 300px;
+        width: 230px;
+        border: 2px solid black;
+        margin: 34px 34px;
+        border-radius: 13px;
+    }
+    .join a{
+        font-size: 1rem;
+            text-decoration: none;
+    
+            color: black;
+            background-color: #fff;
+    }
+    .join a:hover{
+        color: white;
+        background-color: black;
+    }
+    
+}

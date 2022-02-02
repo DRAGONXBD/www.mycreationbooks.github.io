@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+    
+    
+    
+}
+
+    
+.navimg{
+
+}
+#navbar{
+        display: flex;
+         flex-direction: column; 
+         /* border-radius: 13px; */
+         align-items: center; 
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    #navbar ul{
+        display: flex;
+    }
+
+
+    #navbar ul li{
+    
+        display: flex;
+        list-style: none;
+
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+    
+
+}
+#navbar::before{
+    content: "";
+    background-color: #000000;
+    border-radius: 13px 13px;
+    opacity: 2;
+    position: absolute;
+    /* display: flex; */
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.sec1{
+    height: 299px;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    justify-content: center;
+
+    /* align-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.head1{
+    font-size: 1rem;
+}
+.sec1::before{
+    content: "";
+    background: url(img/Online-Sites-to-Publish-Your-Books-for-Free.jpg) no-repeat center center/cover;
+    opacity: 0.5;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+.btn{
+    margin: 13px 13px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 1.2rem;
+    text-decoration: none;
+    /* color: white; */
+    border-radius: 8px 8px;
+}
+.btn a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+.btn a:hover{
+    text-decoration: none;
+    background-color: black;
+    color: white;
+}
+.primary{
+    padding: 12px;
+    /* text-align: center; */
+    font-size: 2rem;
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-family: 'Acme', sans-serif;
+
+
+
+}
+
+.secendory{
+    padding: 13px;
+    font-size: 1.8rem;
+    text-align: center;
+    font-family: 'Acme', sans-serif;}
+
+    .container{
+        text-align: center;
+        background-color: #f2f2f2(240, 228, 228, 0.027);
+        margin: 44px 444px;
+        border: 3px solid rgb(65, 1, 1);
+        border-radius: 13px 13px;
+        width: 600px;
+        font-size: 2rem;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+        left: 180px;
+        
+        
+    }
+    .container img{
+        height: 600px;
+        margin: 14px 14px;
+        border-radius: 13px 13px;
+    }
+    .read a{
+        font-size: 1rem;
+        text-decoration: none;
+
+        color: black;
+        background-color: #fff;
+
+    }
+    
+    .read a:hover{
+        color: white;
+        background-color: black;
+    }
+    footer{
+        color: white;
+        background-color: black;
+        text-align: center ;
+        padding: 34px 34px;
+    }
+    @media (max-width:1170px) {
+              
+    .container{
+        text-align: center;
+        background-color: #000000(240, 228, 228, 0.027);
+        /* margin: 44px 444px; */
+        border: 3px solid rgb(65, 1, 1);
+        border-radius: 13px 13px;
+        width: 300px;
+        padding-right: 630px 531px ;
+        font-size: 2rem;
+        /* align-items: center; */
+        /* justify-content: center; */
+        position: relative;
+        /* right: 400px; */
+        left: -400px;
+        
+        
+    }
+    .container img{
+        height: 600px;
+        width: 260px;
+        margin: 14px 14px;
+        border-radius: 13px 13px;
+    }
+    .read a{
+        font-size: 1rem;
+        text-decoration: none;
+
+        color: black;
+        background-color: #fff;
+
+    }
+    
+    .read a:hover{
+        color: white;
+        background-color: black;
+    }        
+}

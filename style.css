@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Acme', sans-serif;
+    
+    
+}
+.navimg{
+    
+}
+#navbar{
+        display: flex;
+         flex-direction: column; 
+         /* border-radius: 13px; */
+         align-items: center; 
+        text-decoration: none;
+        position: relative;
+        padding-bottom: 30px;
+    }
+    #navbar ul{
+        display: flex;
+    }
+
+
+    #navbar ul li{
+    
+        display: flex;
+        list-style: none;
+
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 3px 22px;
+    text-decoration: none;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    border-radius: 13px;
+    
+
+}
+#navbar::before{
+    content: "";
+    background-color: #000000;
+    border-radius: 13px 13px;
+    opacity: 2;
+    position: absolute;
+    /* display: flex; */
+    height: 90%;
+    width: 100%;
+    z-index: -1;
+}
+#navbar ul li a:hover{
+    color: black;
+    background-color: white;
+}
+.sec1{
+    height: 299px;
+    /* border: 2px solid red; */
+    /* text-align: center; */
+    justify-content: center;
+
+    /* align-content: center; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.head1{
+    font-size: 1rem;
+}
+.sec1::before{
+    content: "";
+    background: url(img/Online-Sites-to-Publish-Your-Books-for-Free.jpg) no-repeat center center/cover;
+    opacity: 0.5;
+    position: absolute;
+    height: 700px;
+    width: 100%;
+    z-index: -1;
+}
+.btn{
+    margin: 13px 13px;
+    border: 2px solid rgb(0, 0, 0);
+    font-size: 1.2rem;
+    /* color: white; */
+    border-radius: 8px 8px;
+}
+.btn a{
+    color: rgb(0, 0, 0);
+    text-decoration:none;
+}
+.btn a:hover{
+    background-color: black;
+    color: white;
+}
+#sec3{
+    display: flex;
+    align-content:center ;
+    justify-content: center;
+}
+.clients{
+    display: flex;
+    padding: 34px 34px;
+}
+.clients img{
+    height: 150px;
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 13px;
+    margin-left: 100px ;
+    position: relative;
+    left: -10px;
+    
+    
+}
+
+#clint-section{
+    height: 344px;
+}
+.headclint{
+    text-align: center;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    font-family: 'Acme', sans-serif;
+    ;
+}
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 44px  44px;
+    /* display: flex; */
+    /* flex-direction: column; */
+    align-items: center;
+}
+footer img{
+    /* float: left; */
+    /* align-items: center; */
+    
+}
+#sec3.clients1{
+     height: auto;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+}
